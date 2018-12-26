@@ -40,7 +40,7 @@ def get_occupation(data, hometown)
     array.each do |obj|
       obj.each do |k,v|
         if v == hometown
-          return v
+          return obj["occupation"]
         end
       end
     end
