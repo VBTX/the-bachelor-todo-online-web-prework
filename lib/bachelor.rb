@@ -23,11 +23,7 @@ end
 def count_contestants_by_hometown(data, hometown)
   data.each do |key, value|
     value.each do |contestant|
-     count = 0
-      if contestant["hometown"] == hometown
-        count += 1
-      end
-count
+      contestant
     end
   end
 end
