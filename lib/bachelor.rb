@@ -53,5 +53,5 @@ def get_average_age_for_season(data, season)
     age = elem["age"].to_i
     ages << age
     end
-    ages.inject {|sum, el| sum + el}.to_i/ages.size
+    ages.inject {|sum, el| sum + el}.to_f.ceil/ages.size
     end
