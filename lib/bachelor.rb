@@ -28,8 +28,9 @@ def count_contestants_by_hometown(data, hometown)
       if contestant["hometown"] == hometown
         count += 1
     end
+      count
   end
-  count
+
 end
 end
 
