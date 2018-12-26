@@ -41,12 +41,11 @@ def get_occupation(data, hometown)
       obj.each do |k,v|
         if v == hometown
           name = obj[:name]
-          contestants << name
+          name
         end
       end
     end
   end
-  contestants[0]
 end
 
 def get_average_age_for_season(data, season)
