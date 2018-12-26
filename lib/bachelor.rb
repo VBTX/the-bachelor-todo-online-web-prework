@@ -22,9 +22,7 @@ end
 
 def count_contestants_by_hometown(data, hometown)
   data.each do |key, value|
-    value.each do |contestant|
-      contestant
-    end
+    value
   end
 end
 
